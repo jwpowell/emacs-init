@@ -3,3 +3,11 @@
 
 # Packaging
 .cask
+
+# Backup files
+\#*
+
+# .emacs.d files
+elpa
+backups
+places
