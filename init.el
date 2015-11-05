@@ -3,13 +3,15 @@
 ;;;; Package Management
 
 (defvar my-packages '(better-defaults
+                      markdown-mode
 		      ;paredit
 		      idle-highlight-mode
 		      ido-ubiquitous
 		      ;find-file-in-project
 		      ;magit
 		      smex
-                      base16-theme))
+                      base16-theme
+                      dockerfile-mode))
 
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
@@ -29,7 +31,7 @@
 ;;;; UI Configuration
 
 (setq inhibit-splash-screen t)
-(set-default-font "Inconsolata 11")
+(set-default-font "Inconsolata 16")
 
 (load-theme 'base16-ashes-dark t)
 
